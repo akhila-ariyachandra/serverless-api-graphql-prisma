@@ -1,0 +1,23 @@
+{
+  "name": "serverless-api-graphql-prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Akhila Ariyachandra <akhila_ariyachandra@live.com>",
+  "license": "MIT",
+  "prisma": {
+    "schema": "src/db/schema.prisma"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.12.1",
+    "@types/graphql-iso-date": "^3.4.0",
+    "@types/node": "^14.14.10",
+    "ts-node": "^9.1.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.12.1",
+    "apollo-server-micro": "^2.19.0",
+    "graphql": "^15.4.0",
+    "graphql-iso-date": "^3.6.1"
+  }
+}
